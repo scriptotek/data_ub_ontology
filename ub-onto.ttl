@@ -6,7 +6,7 @@
 @prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
 
 ubo: a owl:Ontology ;
-  owl:versionInfo "0.1.0" .
+  owl:versionInfo "0.2.0" .
 
 ubo:Topic
   a rdfs:Class , owl:Class ;
