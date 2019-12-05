@@ -54,21 +54,21 @@ ubo:SplitNonPreferredTerm
     "Split non-preferred term"@en ;
   rdfs:description "Complex concept that refers to two or more other concepts that should be used in place of this concept when indexing."@en .
 
-ubo:CompoundConcept
+ubo:ComplexConcept
   a owl:Class ;
   rdfs:subClassOf skos:Concept ,
     mads:ComplexSubject ;
   rdfs:label "Emnestreng"@nb ,
-    "Compound concept"@en ;
+    "Complex concept"@en ;
   rdfs:description "Concept composed of two or more concepts from the same vocabulary."@en .
 
-ubo:VirtualCompoundConcept
+ubo:VirtualComplexConcept
   a owl:Class ;
   rdfs:subClassOf skos:Concept ,
     mads:ComplexSubject ;
   rdfs:label "Virtuell emnestreng"@nb ,
-    "Virtual compound concept"@en ;
-  rdfs:description "Compound concept used as a search guide, but indexed as separate concepts."@en .
+    "Virtual complex concept"@en ;
+  rdfs:description "Complex concept used as a search guide, but indexed as separate concepts."@en .
 
 ubo:plusUseTerm
   a owl:DatatypeProperty ;
